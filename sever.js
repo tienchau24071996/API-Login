@@ -6,7 +6,7 @@ const mongoose = require('mongoose')
 //Import Routes
 fastify.register(require('./routes/auth'), {prefix:'/api/users'})
 fastify.register(require('./routes/posts'),{prefix:'/api/posts'})
-// fastify.register(require('fastify-xml-body-parser'))
+
 dotenv.config();
 
 //Connect to DB

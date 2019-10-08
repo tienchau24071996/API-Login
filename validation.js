@@ -15,10 +15,10 @@ const registerValidation = data => {
             .min(6)
             .required(),
     })
-
     return schema.validate(data)
 }
 
+//Login Validation
 const loginValidation = data => {
     const schema = Joi.object({
         email: Joi.string()
@@ -29,7 +29,6 @@ const loginValidation = data => {
             .min(6)
             .required(),
     })
-
     return schema.validate(data)
 }
 
