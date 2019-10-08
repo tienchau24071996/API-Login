@@ -1,0 +1,30 @@
+{
+  "name": "demo-fastify",
+  "version": "1.0.0",
+  "description": "Demo fastify",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon sever.js"
+  },
+  "keywords": [
+    "fastify",
+    "demo",
+    "test",
+    "server"
+  ],
+  "author": "Tien",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^16.1.7",
+    "bcryptjs": "^2.4.3",
+    "dotenv": "^8.1.0",
+    "fastify": "^2.9.0",
+    "fastify-cli": "^1.2.0",
+    "fastify-xml-body-parser": "^1.0.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.3"
+  }
+}
