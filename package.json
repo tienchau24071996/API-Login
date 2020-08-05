@@ -18,7 +18,7 @@
     "@hapi/joi": "^16.1.7",
     "bcryptjs": "^2.4.3",
     "dotenv": "^8.1.0",
-    "fastify": "^2.9.0",
+    "fastify": "^2.15.1",
     "fastify-cli": "^1.2.0",
     "fastify-xml-body-parser": "^1.0.4",
     "jsonwebtoken": "^8.5.1",
